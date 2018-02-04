@@ -1,0 +1,1333 @@
+@TechReport{ertl89,
+  author = 	 "M. Anton Ertl",
+  title = 	 "GRAY -- ein Generator f{\"}ur rekursiv absteigende Ybersetzer",
+  institution =  "Institut f{\"u}r Computersprachen, Technische
+		 Universit{\"a}t Wien",
+  year = 	 "1989",
+  type =	 "Praktikum",
+  url =		 "http://mips.complang.tuwien.ac.at/papers/ertl89.ps.Z",
+  note =	 "In German"
+}
+
+@InProceedings{ertl&krall91,
+  author = 	"M. Anton Ertl and Andreas Krall",
+  title = 	"Optimal Instruction Scheduling Using Constraint Logic
+		 Programming",
+  crossref =	"plilp91",
+  pages = 	"75--86",
+  url =		"http://mips.complang.tuwien.ac.at/papers/ertl&krall91.ps.gz",
+  abstract = 	"Instruction scheduling is essential for the efficient
+		 operation of today's and tomorrow's processors. It
+		 can be stated easily and declaratively as a logic
+		 program. Consistency techniques embedded in logic
+		 programming makes the efficient solution of this
+		 problem possible. This paper describes an instruction
+		 scheduling program for the Motorola 88100 RISC
+		 processor, which minimizes the number of pipeline
+		 stalls. The scheduler is written in the constraint
+		 logic programming language ARISTO and uses a
+		 declarative model of the processor to generate an
+		 optimal schedule.  The model uses lists of domain
+		 variables to represent the pipeline stages and
+		 describes the dependencies between instructions by
+		 constraints in order to ensure correct scheduling.
+		 Although optimal instruction scheduling is
+		 NP-complete, the scheduler can be applied to real
+		 programs because of the speed gained through
+		 consistency techniques."
+}
+
+@Proceedings{plilp91,
+  key =		"PLILP'91",
+  title = 	"Programming Language Implementation and Logic
+		 Programming (PLILP)",
+  booktitle = 	"Programming Language Implementation and Logic
+		 Programming (PLILP)",
+  year = 	"1991",
+  OPTeditor = 	"Jan Ma{\l}uszy\'nski and Martin Wirsing",
+  publisher = 	"Springer LNCS~528",
+  address = 	"Passau"
+}
+
+@unpublished{gl91a,
+author=    {Robert Gl\"{u}ck},
+title=     {The Generation of Program Specializers},
+note=	   {New York University Computation and Program Analysis Day},
+month=     {June},
+year=      {1991}
+}
+
+@unpublished{gl91b,
+author=    {Robert Gl\"{u}ck},
+title=     {The Generation of Programs by self-applicable Metaprograms},
+note=      {Akademie der Wissenschaften, Moskau},
+month=     {September},
+year=      {1991}
+}
+
+@inproceedings{gl91c,
+author=    {Robert Gl\"{u}ck},
+title=	   {Metasystem Transition in the Machine and its Application to Knowledge Systems},
+booktitle= {Workbook of the 1st Principia Cybernetica Workshop}, 
+editor=	   {Francis Heylighen},
+address=   {Free University of Brussels}, 
+month=     {Juli},
+year=      {1991}
+} 
+
+@inproceedings{gl91d,
+author=    {Robert Gl\"{u}ck},
+title=     {Towards Multiple Self-Application},
+booktitle= {Symposium on Partial Evaluation and Semantics-Based Program Manipulation, PEPM`91},
+publisher= {SIGPLAN Notices and IFIP, ACM Press},
+volume=    {26},
+number=    {9},
+address=   {New Haven, USA},
+year=      {1991},
+month=     {September}
+} 
+
+
+@inproceedings{kral&wass91,
+author=    {Andreas Krall and D. Wassileff},
+title=     {CCOM - A Compiler for Commercial C},
+booktitle= {UNIX Forum VI}, 
+publisher= {Schriftenreihe der OCG},
+editor=    {e.~K\"{u}hn},
+year=      {1991}
+}
+
+@inproceedings{kpe91a,
+author=    {E. K\"{u}hn and F. Puntigam and A.K. Elmagarmid},
+title=     {Multidatabase Transaction and Query Processing in Logic},
+booktitle= {Database Transaction Models for Advanced Applications},
+editor=    {A.~K.~Elmagarmid}, 
+publisher= {Morgan Kaufmann Publishers}, 
+year=      {1991}
+}
+
+@inproceedings{kpe91b,
+author=    {E. K\"{u}hn and F. Puntigam and A.K. Elmagarmid},
+title=     {Transaction Specification in Multidatabase Systems Based on 
+	    Parallel Logic Programming},
+booktitle= {First International Workshop on Interoperability in Multidatabase Systems},
+publisher= {IEEE}, 
+address=   {Kyoto, Japan}, 
+month=     {April},
+year=      {1991}
+}
+
+
+@unpublished{razek,
+author=    {G. Razek},
+title=     {Object Oriented Software Development},
+note=      {Medical Informatics Europe MIE 91, Vienna}, 
+month=     {August},
+year=      {1991}
+}
+
+@InProceedings{ertl&krall92,
+  author = 	"M. Anton Ertl and Andreas Krall",
+  title = 	"Instruction Scheduling for Complex Pipelines",
+  crossref =	"cc92",
+  pages = 	"207--218",
+  url =		"http://mips.complang.tuwien.ac.at/papers/ertl&krall92.ps.gz",
+  abstract =	"We designed heuristics for applying the list
+		 scheduling algorithm to processors with complex
+		 pipelines. On these processors the pipeline can stall
+		 due to resource contention (structural hazards) in
+		 addition to the usual data hazards. Conventional
+		 heuristics consider only data hazards. Our heuristics
+		 reduce structural hazards, too. Code with much
+		 instruction-level parallelism is optimized to avoid
+		 structural hazards, sequential code is scheduled for
+		 reducing data hazards. Embedded in a postpass
+		 strategy our scheduler removes 60\%--100\% of the
+		 removable stalls from conventionally scheduled code."
+}
+@Proceedings{cc92,
+  booktitle = 	"Compiler Construction (CC'92)",
+  title = 	"Compiler Construction (CC'92)",
+  key =		"CC'92",
+  year = 	"1992",
+  publisher = 	"Springer LNCS~641",
+  address = 	"Paderborn",
+}
+
+@InProceedings{ertl92,
+  author = 	"M. Anton Ertl",
+  title = 	"A New Approach to {Forth} Native Code Generation",
+  crossref =	"euroforth92",
+  pages = 	"73--78",
+  url =		"http://mips.complang.tuwien.ac.at/papers/ertl92.ps.Z",
+  abstract =    "RAFTS is a framework for applying state of the art
+		 compiler technology to the compilation of Forth.  The
+		 heart of RAFTS is a simple method for transforming
+		 Forth programs into data flow graphs and static
+		 single assignment form. Standard code generation and
+		 optimization techniques can be applied to programs in
+		 these forms. Specifically, RAFTS uses interprocedural
+		 register allocation to eliminate nearly all stack
+		 accesses. It also removes nearly all stack pointer
+		 updates. Inlining and tail call optimization reduce
+		 the call overhead. RAFTS compiles all of Forth,
+		 including difficult cases like unknown stack heights,
+		 {\tt PICK}, {\tt ROLL} and {\tt EXECUTE}. And last,
+		 but not least, RAFTS is designed for interactive
+		 Forth systems; it is not restricted to batch
+		 compilers"
+}
+
+@Proceedings{euroforth92,
+  key = 	"EuroForth~'92",
+  title = 	"EuroForth~'92",
+  booktitle = 	"EuroForth~'92",
+  year = 	"1992",
+  organization = 	"MicroProcessor Engineering",
+  address = 	"Southampton, England"
+}
+
+
+@InProceedings{krall&berger92,
+  author =      "Andreas Krall and Thomas Berger",
+  title =       "Fast {P}rolog with a {VAM1p} based {P}rolog Compiler",
+  crossref =    "plilp92",
+  pages =       "245--259",
+  abstract =    "The VAM (Vienna Abstract Machine) is a Prolog machine
+		 developed at the TU Wien. In contrast to the standard
+		 implementation technique (Warren Abstract Machine) an
+		 inference in the VAM is performed by unifying the head
+		 and goal arguments in a single undivided step. The
+		 interpreter based VAM2p implements unification by combining
+		 head and goal instructions during run time whereas the
+		 compiler based VAM1p combines the instructions during
+		 compile time. This enables compilers based on the VAM1p
+		 to make extensive optimizations like variable elimination,
+		 instruction elimination, extended clause indexing and
+		 fast last-call optimizations. This results in fast execution
+		 and small stack sizes. Our prototype compiler is implemented
+		 in Prolog and emits intermediate VAM1p code. This intermediate
+		 code is translated to native code instructions for the
+		 MIPS R3000 processor. The native code instructions are
+		 reordered using a Prolog based instruction scheduler and
+		 assembled using the MIPS assembler. The resulting programs
+		 achieve 3.1 MLips on a DecStation 5000/200."
+}
+
+@Proceedings{plilp92,
+  booktitle =   "Programming Language Implementation and Logic
+		 Programming (PLILP'92)",
+  year =        "1992",
+  publisher =   "Springer LNCS~631",
+  address =     "Leuven",
+}
+
+@article{Ra92a,
+  author =      "G.~Razek",
+  title  =      "Combining Objects and Relations",
+  journal =     "ACM Sigplan Notices",
+  year =        "1992",
+  volume =      "27",
+  number =      "12",
+  month =       "December",
+  pages =       "66--70",
+  abstract =    "Whereas the object oriented paradigm is best suited for
+         the modelling of self contained objects it is not suited for the
+         modelling of relations between objects. For the logic oriented
+         paradigm on the other hand the converse is true. This pater
+         shows that objects and their relations can be modelled in an
+         integrated way by combining both paradigms."
+}
+
+
+@article{Ra92b,
+	author =	{G.~Razek and others},
+	title =		{{C}omputerunterst\"{u}tzte {P}atientenverwaltung: {I}ndividuelle
+			    {EDV-}unterst\"{u}tzte {D}okumentation in der {G}yn\"{a}kologie},
+	journal =	{Gyn\"{a}kologisch-geburtshilfliche Rundschau},
+	year = 		"1992",
+	volume =	"32",
+	pages =		"151--154"
+}
+
+@article{Ra92c,
+	author =	{G.~Razek and others},
+	title =		{{C}omputerunterst\"{u}tzte {P}atientenverwaltung: {V}on
+			    abteilungsspezifischen {I}nsell\"{o}sungen zur wienweit vernetzten
+			    {G}esamtl\"{o}sung},
+	journal =	"Wiener klinische Wochenschrift",
+	year =		"1992",
+	volume =	"104",
+	number =	"23",
+	pages =		"725--727"
+}
+
+@inproceedings{Ne92,
+author={U.~Neumerkel},
+title={Pruning Infinite Failure Branches in Programs with Occur-Check},
+booktitle={Proceedings of Logic Programming and Automated Reasoning},
+publisher={Springer LNCS 624},
+address = {St.Petersburg, Russia},
+month = {July},
+year = {1992}
+}
+
+
+@inproceedings{KuPu92a,
+author={Eva K\"{u}hn and Franz Puntigam},
+title={Embedding {MSQL} Queries into a Logic Based Transaction Processing Framework},
+booktitle= {Proc.~of the 2nd International Workshop on Research Issues on Data
+		Engineering: Transaction and Query Processing (RIDE-TQP)},
+publisher={IEEE}, 
+address={Phoenix, Arizona}, 
+month={February},
+year={1992}
+}
+
+@inproceedings{KuPu92b,	
+author={Eva K\"{u}hn and Franz Puntigam},
+title={An Execution Model for Distributed Database Transactions and 
+		Its Implementation in {VPL}},
+booktitle={Proc.~of the International Conference on Extending Database Technology,
+		EDBT-92}, 
+publisher={Springer LNCS 580},
+address={Vienna},
+month={March},
+year={1992}
+}
+
+@inproceedings{KuPu92c,	
+author={Eva K\"{u}hn and Franz Puntigam},
+title={Reliable Communication in {VPL}},
+booktitle={Proceedings of the Parallel Architectures and Languages 
+		Europe (PARLE-92)},
+publisher={Springer LNCS 605}, 
+address={Paris}, 
+month={June},
+year={1992}
+}
+
+@inproceedings{Gl92a,
+author={Robert Gl\"{u}ck}, 
+title={Projections for Knowledge Based Systems},
+booktitle={Cybernetics and Systems 92},
+editor={Robert Trappl},
+publisher={World Scientific Publishing},
+address={Vienna},
+year={1992}
+}
+
+@inproceedings{Gl92b,
+author={Robert Gl\"{u}ck},
+title={The Requirement of Identical Variety},
+booktitle={Proceedings of the 13th International Congress on Cybernetics},
+address={Namur, Belgium},
+year={1992}
+} 
+
+@unpublished{Gl92c,
+author={Robert Gl\"{u}ck},
+title={Yet Another Future Problem of Specialization},
+note={University of Copenhagen},
+month={April},
+year={1992}
+}
+
+
+
+
+
+@article{BuEK93,
+author	=	"O. Bukhres and A. Elmagarmid and {e}. K{\"{u}}hn",
+title	=	"Implementations of the Flex Transaction Model",
+journal	=	"Data Engineering Bulletin",
+year	=	"1993",
+volume	=	"",
+number	=	"",
+pages	=	"",
+month	=	"June",
+note	=	"Special Issue on Workflow Applications",
+annote	=	""
+}
+
+
+@InProceedings{BuKP92,
+author	=	"O. Bukhres and {e}. K{\"{u}}hn and F. Puntigam",
+title	=	"A Language Multidatabase System Communication Protocol",
+booktitle=	"Proceedings of the 9th International Conference on Data Engineering",
+year	=	"1993",
+editor	=	"",
+pages	=	"",
+organization=	"",
+publisher=	"IEEE Computer Society",
+address	=	"",
+month	=	"April",
+note	=	"",
+annote	=	""
+}
+
+
+@InProceedings{ertl93,
+  author = 	 "M. Anton Ertl",
+  title = 	 "A Portable {Forth} Engine",
+  booktitle =	 "EuroFORTH '93 conference proceedings",
+  year =	 "1993",
+  address =	 "Mari\'ansk\'e L\'azn\`e",
+  url =		 "http://mips.complang.tuwien.ac.at/papers/ertl93.ps.Z",
+  abstract = 	 "The Forth engine discussed in this paper is written
+		  in GNU C, which provides several extensions that are
+		  important for Forth implementation. The indirect
+		  threaded Forth engine is completely
+		  machine-independent, direct threading requires a few
+		  machine-specific lines for each machine. Using
+		  a portable language like GNU C encourages producing
+		  an engine with many primitives. In order to make the
+		  development of primitives easier and less
+		  error-prone, an automatic tool generates most of the
+		  code for a Forth primitive from the stack effect
+		  notation, even if the TOS is kept in a register. The
+		  engine is combined with the parts of the system
+		  written in Forth by loading a machine-independent
+		  image file that contains the executable Forth code
+		  in relocatable form."
+}
+
+ 
+@INPROCEEDINGS{ErKr93g,
+        AUTHOR      = {M. Anton Ertl and Andreas Krall},
+        TITLE       = {{Benutzerdefinierte Constraints}},
+        BOOKTITLE   = {9. Workshop Logische Programmierung},
+        EDITOR      = {Christoph Beierle},
+        SERIES      = {FernUniversit\"at Hagen 146 - 10/1993},
+        PAGES       = {18--22},
+        ADDRESS     = {Hagen},
+        YEAR        = 1993}
+
+@InProceedings{ertl&krall93,
+  author = 	 "M. Anton Ertl and Andreas Krall",
+  title = 	 "High Level Constraints over Finite Domains",
+  crossref =	 "constraints93",
+  pages =	 "65--76",
+  url =		 "http://mips.complang.tuwien.ac.at/papers/ertl&krall93.ps.gz",
+  abstract = 	 "Constraint logic programming languages that employ
+		  consistency techniques have been used to solve many
+		  combinatorial search problems. In solving such
+		  problems, the built-in constraints often do not
+		  suffice. Unfortunately, new constraints defined with
+		  lookahead and forward declarations are often
+		  inefficient. In this paper, we present an efficient
+		  high-level constraint mechanism. High-level
+		  constraints are ordinary predicates with an
+		  additional constraint declaration. They offer
+		  fine-grained control over the tradeoff between
+		  pruning power and execution time and achieve huge
+		  speedups over lookahead declarations."
+}
+
+@Proceedings{constraints93,
+  title = 	 "Constraint Processing, International Workshop at CSAM '93",
+  booktitle = 	 "Constraint Processing, International Workshop at CSAM '93",
+  year = 	 "1993",
+  key =		 "Constraint Processing",
+  editor =	 "Manfred Meyer",
+  address =	 "St. Petersburg",
+  note =	 "Available via ftp from {\tt ftp.daimi.aau.dk}, file
+		  {\tt /pub/clp/DFKI-RR-93-39.ps.Z}"
+}
+
+@unpublished{Gl93a,
+author ={Robert Gl\"{u}ck},
+title ={Generating Optimizing Specializers},
+note ={ESPRIT Semantique Workshop, Imperial College of Science and Technology, University of London},
+month ={July},
+year ={1993}
+}
+
+@unpublished{Gl93b,
+author = {Robert Gl\"{u}ck},
+title = {Information Propagation in Driving},
+note = {TOPPS Seminar, DIKU, Dept. of Computer Science, University of Copenhagen},
+month = {April},
+year = {1993}
+}
+
+@unpublished{Gl93c,
+author = {Robert Gl\"{u}ck},
+title = {Metasystem Transition Schemes},
+note = {Keldysh Institute of Applied Mathematics, Russian Academy of Sciences,Moscow},
+month = {February},
+year = {1993}
+}
+ 
+@inproceedings{Gl93,
+author = {Robert Gl\"{u}ck}, 
+title = {Occam's Razor in Metacomputation: the Notion of a Perfect Process Tree},
+booktitle = {3rd International Workshop on Static Analysis},
+series = {LNCS 724},
+publisher = {Springer Verlag},
+address = {Padova (Italy)},
+year = {1993}
+}
+
+
+@INPROCEEDINGS{Kral93,
+	AUTHOR      = {Andreas Krall},
+	TITLE       = {Clause Indexing in {VAM} and {WAM} based Compilers},
+	BOOKTITLE   = {Second International Workshop on Functional/Logic Programming},
+	ORGANIZATION = {Ludwig-Maximilians-Universit\"at M\"unchen},
+	SERIES      = {Bericht 9311},
+	YEAR        = 1993}
+
+
+@InProceedings{Kueh93b,
+author	=	"{e}. K{\"{u}}hn",
+title	=	"{F}ehlertolerantes {K}oordinieren verteilter autonomer {D}ienste",
+booktitle =	"Proceedings of the Euro-ARCH'93 (European Informatics Congress Computing Systems Architecture)",
+year	=	"1993",
+editor	=	"",
+pages	=	"",
+organization =	"",
+publisher =	"Springer-Verlag",
+address	=	"Munich",
+month	=	"October 18--19",
+note	=	"",
+annote	=	""
+}
+
+@InProceedings{Kueh93a,
+author	=	"{e}. K{\"{u}}hn",
+title	=	"Multidatabase Language Requirements",
+booktitle =	"Proceedings of the 3rd International Workshop on
+		 Research Interests in data Engineering,
+		 Interoperability in Multidatabase Systems, RIDE-IMS-93",
+year	=	"1993",
+editor	=	"",
+pages	=	"",
+organization =	"",
+publisher =	"IEEE Computer Society",
+address	=	"",
+month	=	"",
+note	=	"",
+annote	=	""
+}
+
+@unpublished{KuVa,
+author = "{e}. K{\"{u}}hn",
+title  = {{VPL}, the language and its implementation},
+note   = {KFKI, Budapest},
+month  = {November},
+year   = {1993}
+}
+
+
+@article{KuPP93,
+author	=	"{e}. K{\"{u}}hn and H. Pohlai and F. Puntigam",
+title	=	"Concurrency and Backtracking in {VPL}",
+journal	=	"Computer Languages",
+year	=	"1993",
+volume	=	"19",
+number	=	"3",
+pages	=	"",
+month	=	"July",
+note	=	"",
+annote	=	""
+}
+
+@unpublished{hung93:Neu,
+title = {The binary {WAM}, a simplified Prolog engine},
+author ={U.~Neumerkel},
+note = {KFKI, Budapest},
+month = {November},
+year =  1993
+}
+
+@inproceedings{TR:Neu:93xx1,
+author ={U.~Neumerkel},
+title ={Une transformation de programme bas\'{e}e sur la notion d'\'{e}quations entre termes},
+booktitle ={Secondes journ\'{e}es francophones sur la programmation en
+logique (JFPL'93)},
+address = {N\^{\i}mes-Avingnon, France},
+year = "1993"
+}
+
+
+@inproceedings{LOPSTR93:Neumerkel,
+title = "A Transformation Based on the Equality between Terms",
+booktitle = "Logic Program Synthesis and Transformation, LOPSTR 1993",
+author ={U.~Neumerkel},
+place = "Louvain-la-Neuve",
+series = "Workshops in Computing",
+publisher = "Springer-Verlag",
+year = "1994"
+}
+
+@InProceedings{ambrosch+94,
+  author = 	 "Wolfgang Ambrosch and M. Anton Ertl and Felix Beer
+		  and Andreas Krall",
+  title = 	 "Dependence-Conscious Global Register Allocation",
+  booktitle = 	 "Programming Languages and System Architectures",
+  year = 	 "1994",
+  editor =	 "J{\"u}rg Gutknecht",
+  publisher =	 "Springer LNCS~782",
+  address =	 "{Z\"urich}",
+  pages =	 "125--136",
+  url =		 "http://mips.complang.tuwien.ac.at/papers/ambrosch+94.ps.Z",
+  abstract =	 "Register allocation and instruction scheduling are
+		  antagonistic optimizations: Whichever is applied
+		  first, it will impede the other. To solve this problem, we
+		  propose dependence-conscious colouring, a register
+		  allocation method that takes the dependence graph
+		  used by the instruction scheduler into
+		  consideration.  Dependence-conscious colouring
+		  consists of two parts: First, the interference graph
+		  is built by analysing the dependence graphs,
+		  resulting in fewer interference edges and less
+		  spilling than the conventional preordering approach.
+		  Secondly, during colouring the register selection
+		  keeps dependence paths short, ensuring good
+		  scheduling. Dependence-conscious
+		  colouring reduces the number of interference edges
+		  by 7\%--24\% and antidependences by 46\%--100\%."
+}
+
+@InProceedings{BGZ94,
+   Author ="Baier, Romana and Gl{\"u}ck, Robert and Z{\"o}chling, Robert",
+   Title ="Partial evaluation of numerical programs in {Fortran}",
+   BookTitle ="ACM SIGPLAN Workshop on Partial Evaluation and Semantics-Based Program Manipulation",
+   Address ="Orlando, Florida",
+   Pages ="119-132",
+   Year="1994"
+}
+
+@InBook{BuEK94a,
+author	=	"O. Bukhres and A. Elmagarmid and {e}. K{\"{u}}hn",
+title	=	"Object-Oriented Multidatabase Systems",
+chapter	=	"Advanced Languages for Multidatabase Systems",
+publisher =	"Prentice-Hall",
+year	=	"1994",	
+editor	=	"O. Bukhres and A. Elmagarmid"
+}
+
+@inproceedings{b94d, 
+author = {Christine Eisenbeis and S. Lelait and A. Sawaya and Jian Wang},
+title = {Parallelisation de boucles: constraintes de ressources et registres},
+booktitle = {proceedings of Actes des 6es Rencontres Francophones du Parallelisme, RenPar'6},
+year = 1994,
+month = {June},
+organization = {ENS Lyon, France},
+
+}
+
+@InProceedings{ertl94l,
+  author = 	 "M. Anton Ertl",
+  title = 	 "Automatic Scoping of Local Variables",
+  booktitle = 	 "EuroForth~'94 Conference Proceedings",
+  year = 	 "1994",
+  address =	 "Winchester, UK",
+  pages =	 "31--37",
+  url =		 "http://mips.complang.tuwien.ac.at/papers/ertl94l.ps.Z",
+  abstract = 	 "In the process of lifting the restrictions on using
+		  locals in Forth, an interesting problem poses
+		  itself: What does it mean if a local is defined in a
+		  control structure? Where is the local visible? Since
+		  the user can create every possible control structure
+		  in ANS Forth, the answer is not as simple as it may
+		  seem. Ideally, the local is visible at a place if
+		  the control flow {\em must} pass through the
+		  definition of the local to reach this place. This
+		  paper discusses locals in general, the visibility
+		  problem, its solution, the consequences and the
+		  implementation as well as related programming style
+		  questions."
+}
+
+@InProceedings{ertl94sc,
+  author = 	 "M. Anton Ertl",
+  title = 	 "Stack Caching for Interpreters",
+  booktitle = 	 "EuroForth~'94 Conference Proceedings",
+  year = 	 "1994",
+  address =	 "Winchester, UK",
+  pages =	 "3--12",
+  url =		 "http://mips.complang.tuwien.ac.at/papers/ertl94sc.ps.Z",
+  abstract = 	 "An interpreter for a virtual stack machine can spend
+		  a significant part of its execution time fetching
+		  values from and storing values to the stack. This
+		  paper explores two methods to reduce this overhead
+		  by caching top-of-stack values in registers. The
+		  dynamic method is based on having one version of the
+		  whole interpreter for every possible state of the
+		  cache; the execution of a primitive usually changes
+		  the state of the cache and the next primitive is
+		  executed in the version corresponding to the new
+		  state. In the static method a state machine that
+		  keeps track of the cache state is added to the
+		  compiler. Common primitives exist in versions for
+		  several states, but it is not necessary to have a
+		  version of every primitive for every cache state.
+		  The compiler generates glue code, if necessary, and
+		  compiles the version of the primitive appropriate
+		  for the cache state. Stack manipulation primitives
+		  are usually optimized away."
+}
+
+@InProceedings{ertl&krall94,
+  author = 	"M. Anton Ertl and Andreas Krall",
+  title = 	"Delayed Exceptions --- Speculative Execution of
+		  Trapping Instructions",
+  booktitle = 	 "Compiler Construction (CC '94)",
+  year = 	 "1994",
+  publisher =	 "Springer LNCS~786",
+  address =	 "Edinburgh",
+  month =	 "April",
+  pages =	 "158--171",
+  url =		 "http://mips.complang.tuwien.ac.at/papers/ertl-krall94cc.ps.gz",
+  abstract =	 "Superscalar processors, which execute basic blocks
+		  sequentially, cannot use much instruction level
+		  parallelism. Speculative execution has been proposed
+		  to execute basic blocks in parallel. A pure software
+		  approach suffers from low performance, because
+		  exception-generating instructions cannot be executed
+		  speculatively. We propose delayed exceptions, a
+		  combination of hardware and compiler extensions that
+		  can provide high performance and correct exception 
+		  handling in compiler-based speculative execution.
+		  Delayed exceptions exploit the fact that exceptions
+		  are rare. The compiler assumes the typical case (no
+		  exceptions), schedules the code accordingly, and
+		  inserts run-time checks and fix-up code that ensure
+		  correct execution when exceptions do happen."
+}
+
+
+@InProceedings{FKPS94a,
+author	=	"A. Forst and {e}. K{\"{u}}hn and H. Pohlai and 
+		 K. Schwarz",
+title	=	"Logic Based and Imperative Coordination Languages",
+booktitle=	"Seventh International Conference on Parallel and
+		 Distributed Comuting Systems, PDCS'94",
+year	=	"1994",
+organization=	"ISCA, in cooperation with ACM, IEEE",
+address	=	"Las Vegas, Nevada",
+month	=	"October"
+}
+
+
+@unpublished{Gv94a,
+title = {Generating Transformers for Deforestation and Driving},
+author={R.~Gl{\"u}ck},
+note = {Atlantique Workshop on Semantics-Based Program Manipulation, Portland, Oregon, USA},
+month = {January},
+year = 1994
+}
+
+@unpublished{Gv94b,
+title = {Fortran Program Specialization},
+author={R.~Gl{\"u}ck},
+note = {IFIP WG 2.4 Meeting, Szeged, Hungary},
+month = {May},
+year = 1994
+}
+
+@unpublished{Gv94c,
+title = {Deforestation and Supercompilation},
+author={R.~Gl{\"u}ck},
+note = {ESPRIT Semantique Workshop, Aarhus, Denmark},
+month = {July},
+year = 1994
+}
+
+@Article{G94:JFP,
+   Author="Gl{\"u}ck, Robert",
+   Title="On the generation of specializers",
+   Journal="Journal of Functional Programming",
+   Volume="4",
+   Number="4",
+   Pages="499-514",
+   Year="1994"
+}
+
+@InProceedings{GJ94:IEEE,
+   Author="Gl{\"u}ck, Robert and J{\o}rgensen, Jesper",
+   Title="Generating optimizing specializers",
+   BookTitle="1994 International Conference on Computer Languages",
+   Address="Toulouse, France",
+   Publisher="IEEE Computer Society Press",
+   Pages="183-194",
+   Year="1994"
+}
+
+@InProceedings{GJ94:SAS,
+   Author="Gl{\"u}ck, Robert and J{\o}rgensen, Jesper",
+   Title="Generating transformers for deforestation and supercompilation",
+   BookTitle="Static Analysis. Proceedings",
+   Editor="Le Charlier, B.",
+   Series="Lecture Notes in Computer Science",
+   Address="Namur, Belgium",
+   Publisher="Springer-Verlag",
+   Volume="864",
+   Pages="432-448",
+   Year="1994"
+}
+
+@InCollection{GK94:LMMC,
+   Author="Gl{\"u}ck, Robert and Klimov, Andrei V.",
+   Title="Metacomputation as a tool for formal linguistic modeling",
+   BookTitle="Cybernetics and Systems '94",
+   Editor="Trappl, R.",
+   Publisher="World Scientific",
+   Address="Singapore",
+   Volume="2",
+   Pages="1563-1570",
+   Year="1994"
+}
+
+@InProceedings{GS94,
+   Author="Gl{\"u}ck, Robert and S{\o}rensen, Morten Heine",
+   Title="Partial deduction and driving are equivalent",
+   BookTitle="Programming Language Implementation and Logic Programming. Proceedings",
+   Editor="Hermenegildo, M. and Penjam, J.",
+   Series="Lecture Notes in Computer Science",
+   Address="Madrid, Spain",
+   Publisher="Springer-Verlag",
+   Volume="844",
+   Pages="165-181",
+   Year="1994"
+}
+
+
+@InProceedings{KKZG94,
+   Author="Kleinrubatscher, Paul and Kriegshaber, Albert and Z{\"o}chling, Robert and Gl{\"u}ck, Robert",
+   Title="Fortran program specialization",
+   BookTitle="Semantikgest{\"u}tzte Analyse, Entwicklung und Generierung von Programmen. GI Workshop",
+   Editor="Snelting, Gregor and Meyer, Uwe",
+   Address="Schloss Rauischholzhausen, Germany",
+   Publisher="Justus-Liebig-Universit{\"a}t Giessen",
+   Pages="45-54",
+   Year="1994"
+}
+
+
+@INPROCEEDINGS{Kral94a,
+        AUTHOR      = {Andreas Krall},
+        TITLE       = {Improving Semi-static Branch Prediction by Code Replication},
+        BOOKTITLE   = {Conference on Programming Language Design and Implementation},
+        ORGANIZATION= {ACM},
+        SERIES      = {SIGPLAN},
+        VOLUME      = {29(7)},
+        PAGES       = {97--106},
+        ADDRESS     = {Orlando},
+        YEAR        = 1994}
+
+@INPROCEEDINGS{Kral94b,
+        AUTHOR      = {Andreas Krall},
+        TITLE       = {Implementation Techniques for {Prolog}},
+        BOOKTITLE   = {10. Workshop Logische Programmierung},
+        EDITOR      = {Norbert E. Fuchs},
+        ORGANIZATION= {Universit\"at Z\"urich},
+        SERIES      = {Bericht},
+        PAGES       = {1--15},
+        ADDRESS     = {Z\"urich},
+        YEAR        = 1994}
+
+@INPROCEEDINGS{KrBe94a,
+        AUTHOR      = {Andreas Krall and Thomas Berger},
+        TITLE       = {Incremental Flow Analysis},
+        BOOKTITLE   = {3rd Workshop on Functional Logic Programming},
+        EDITOR      = {Hendrik Lock},
+        ORGANIZATION= {IBM Scientific Center Heidelberg},
+        PAGES       = {15--19},
+        ADDRESS     = {Schwarzenberg},
+        YEAR        = 1994}
+
+@INPROCEEDINGS{KrBe94b,
+        AUTHOR      = {Andreas Krall and Thomas Berger},
+        TITLE       = {A Progress Report on Incremental Global Compilation of {Prolog}},
+        BOOKTITLE   = {International Logic Programming Symposium, Workshop on Implementation
+                       Techniques for  Logic  Programming  Languages},
+        EDITOR      = {Koen De Bosschere and Bart Demoen and Paul Tarau},
+        ORGANIZATION= {ALP},
+        PAGES       = {59--67},
+        ADDRESS     = {Ithaca},
+        YEAR        = 1994}
+
+
+@InProceedings{Kueh94a,
+author	=	"{e}. K{\"{u}}hn",
+title	=	"Fault-Tolerance for Communicating Multidatabase Transactions",
+booktitle=	"Proceedings of the 27th Hawaii International Conference on System Sciences (HICSS)",
+year	=	"1994",
+publisher=	"ACM, IEEE",
+address	=	"Wailea, Maui, Hawaii",
+month	=	"January"
+}
+
+@InProceedings{KuLP94,
+author	=	"{e}. K{\"{u}}hn and W. Liu and H. Pohlai",
+title	=	"Scheduling Transactions on Distributed Systems with the {VPL} 
+		 Engine",
+booktitle=	"In: Proceedings of the Second Biennial European Joint Conference 
+		 on Engineering Systems Design, ESDA'94",
+year	=	"1994",
+publisher=	"The American Society of Mechanical Engineers (ASME)",
+address	=	"London, England",
+month	=	"July"
+}
+
+@article{KuPP94,
+author	=	"{e}. K{\"{u}}hn and H. Pohlai and F. Puntigam",
+title	=	"Communication and Transactions in {VPL}",
+journal	=	"Computers and Artificial Intelligence",
+year	=	"1994",
+volume	=	"13",
+number	=	"4"
+}
+
+
+@InProceedings{KuPS94a,
+author	=	"{e}. K{\"{u}}hn and H. Pohlai and K. Schwarz",
+title	=	"Efficient Coordination Support with Transputer Systems",
+booktitle=	"2nd Austrian-Hungarian Workshop on Transputer Applications",
+year	=	"1994",
+organization=	"KFKI-Reports Series",
+address	=	"Budapest, Hungary",
+month	=	"September"
+}
+
+@InProceedings{KuST94,
+author	=	"{e}. K{\"{u}}hn and K. Schwarz and T. Tschernko",
+title	=	"A Language Based Multidatabase System",
+booktitle=	"Proceedings of the ACM-SIGMOD 1994 Conference",
+year	=	"1994",
+address	=	"Minnesota",
+month	=	"May 24--27",
+note	=	"prototype system description"
+}
+
+@unpublished{Nv94,
+title ="A Program Transformation Based on Equality",
+author="Ulrich Neumerkel",
+note= "IBM T.J.Watson Research Centre",
+month= "September",
+year=1994
+}
+
+
+@inproceedings{Punt94a,
+author = "Franz Puntigam",
+title = "Transactions on Shared Data: A Coordination Model",
+booktitle = "Hawaii International Conference on System Sciences",
+month = "January",
+year = 1994
+}
+
+@inproceedings{Punt94b,
+author = "Franz Puntigam",
+title = "Type Specialization and Coordination",
+booktitle = "Workshop on Coordination Models and Languages for Parallelism and Distribution",
+month = "July",
+year = 1994
+}
+
+@inproceedings{Punt94c,
+author = "Franz Puntigam",
+title = "Type Specialization for Object-Oriented Coordination",
+booktitle = "Joint Conference on Information Sciences",
+month = "November",
+year = 1994
+}
+
+@InProceedings{SGJ94,
+   Author="S{\o}rensen, Morten Heine and Gl{\"u}ck, Robert and Jones, Neil D.",
+   Title="Towards unifying partial evaluation, deforestation, supercompilation, and GPC",
+   BookTitle="Programming Languages and Systems - ESOP '94. Proceedings",
+   Editor="Sannella, Donald",
+   Series="Lecture Notes in Computer Science",
+   Address="Edinburgh, Scotland",
+   Publisher="Springer-Verlag",
+   Volume="788",
+   Pages="485-500",
+   Year="1994"
+}
+
+@inproceedings{b94c, 
+         author = {Bogong Su and Stanley Habib and Youfeng Wu and Jian
+                  Wang and Wei Zhao},
+         title = {A study of pointer aliasing for software pipelining
+                  using run-time disambiguation},
+         booktitle = {proceedings of the 27th International Symposium and Workshop on
+         Microprogramming and Microarchitecture (MICRO-27)},
+         year = 1994,
+         month = {December},
+         organization = {ACM and IEEE},
+
+}
+
+@InProceedings{TN94,
+  author         = "P. Tarau and U. Neumerkel",
+  title          = "A Novel Term Compression Scheme and Data Representation in the {BinWAM}",
+  booktitle      = "Programming Language Implementation and Logic
+                    Programming, International Symposium, PLILP'94",
+  year           = 1994,
+  series         = "Lecture Notes in Computer Science",
+  publisher      = "Springer-Verlag"
+}
+
+
+@article{a94b, 
+         author = {Jian Wang and Christine Eisenbeis and Martin Jourdan and Bogong Su},
+         title = {{Decomposed Software Pipelining}: A New Perspective and
+         A New Approach},
+         journal = {International Journal of Parallel
+         Programming},
+         year = 1994,
+         volume = 22,
+         number = 3,
+         pages = {357--379},
+}
+
+@article{a94a, 
+         author = {Jian Wang and Christine Eisenbeis and Bogong Su},
+         title = {Using Timed Petri Net to Model Instruction-Level Loop Scheduling
+         with Resource Constraints},
+         journal = {Journal of Computer Science
+         and Technology},
+         year = 1994,
+         volume = 9,
+         number = 2,
+         pages = {128--143},
+}
+
+@inproceedings{b94b, 
+         author = {Jian Wang and Andreas Krall and M. Anton Ertl and Christine Eisenbeis},
+         title = {Software pipelining with register allocation and spilling},
+         booktitle = {proceedings of the 27th International Symposium and Workshop on
+         Microprogramming and Microarchitecture (MICRO-27)},
+         year = 1994,
+         month = {December},
+         organization = {ACM and IEEE},
+
+}
+
+@inproceedings{b94a, 
+         author = {Jian Wang and Andreas Krall and M. Anton Ertl and Christine Eisenbeis},
+         title = {{Trace Software Pipelining}: A Novel Technique for
+         Parallelization of Loops with Branches},
+         booktitle = {proceedings of  International Conference 
+         on Parallel Architectures and Compilation Techniques (PACT'94)},
+         year = 1994,
+         month = {August},
+         organization = {IFIP},
+         editor = {Michel Cosnard and G.R. Gao and G.M. Silberman},
+         publisher = {Elsevier Science B. V. (North-Holland)}, 
+}
+
+@article{KELB1995,
+author  =       "{e}. K{\"u}hn and A. K.Elmagarmid and Y. Leu and N. Boudriga",
+title   =       "A Parallel Logic Language for Transaction Specification in 
+                 Multidatabase Systems",
+journal =       "Journal of Systems Integration",
+year    =       "1995",
+volume  =       "5",
+pages   =       "219--252",
+publisher =     "Kluwer Academic Publishers",
+}
+
+@article{BuKu1995,
+author  =       "O. Bukhres and {e}. K{\"{u}}hn",
+title   =       "Highly Available and Reliable Communication Protocols for 
+                 Heterogeneous Systems",
+journal =       "Information Sciences",
+year    =       "1995",
+volume  =       "3",
+number  =       "1",
+pages   =       "1--40",
+month   =       "January",
+}
+
+@InProceedings{ertl95pldi,
+  author =       "M. Anton Ertl",
+  title =        "Stack Caching for Interpreters",
+  crossref =     "sigplan95",
+  OPTpages =     "",
+  url =		 "http://mips.complang.tuwien.ac.at/papers/ertl95pldi.ps.gz",
+  abstract =     "An interpreter can spend a significant part of its
+                  execution time on arguments of virtual machine
+                  instructions. This paper explores two methods to
+                  reduce this overhead for virtual stack machines by
+                  caching top-of-stack values in (real machine)
+                  registers. The {\em dynamic method} is based on
+                  having, for every possible state of the cache, one
+                  specialized version of the whole interpreter; the
+                  execution of an instruction usually changes the
+                  state of the cache and the next instruction is
+                  executed in the version corresponding to the new
+                  state. In the {\em static method} a state machine
+                  that keeps track of the cache state is added to the
+                  compiler. Common instructions exist in specialized
+                  versions for several states, but it is not necessary
+                  to have a version of every instruction for every
+                  cache state. Stack manipulation instructions are
+                  optimized away."
+}
+
+@Proceedings{sigplan95,
+  booktitle =    "SIGPLAN '95 Conference on Programming Language
+                  Design and Implementation",
+  title =        "SIGPLAN '95 Conference on Programming Language
+                  Design and Implementation",
+  year =         "1995",
+  key =          "SIGPLAN '95"
+}
+
+@INPROCEEDINGS{ErKr95,
+        AUTHOR      = {M. Anton Ertl and Andreas Krall},
+        TITLE       = {High Level Constraints over Finite Domains},
+        BOOKTITLE   = {Constraint Processing},
+        EDITOR      = {Manfred Meyer},
+        SERIES      = {LNCS 923},
+        PUBLISHER   = {Springer},
+        PAGES       = {51--66},
+        ADDRESS     = {Heidelberg},
+  url =		 "http://mips.complang.tuwien.ac.at/papers/ertl&krall93.ps.gz",
+        YEAR        = 1995}
+
+@InProceedings{ertl&maierhofer95,
+  author =       {M. Anton Ertl and Martin Maierhofer},
+  title =        {Translating Forth to Efficient C},
+  crossref =     {euroforth95},
+  url =          {http://www.complang.tuwien.ac.at/papers/ertl&maierhofer95.ps.gz},
+  abstract =     {An automatic translator can translate Forth into C
+                  code which the current generation of optimizing C
+                  compilers compiles to efficient machine code.  I.e.,
+                  the resulting code keeps stack items in registers
+                  and rarely updates the stack pointer. This paper
+                  presents a simple translation method that produces
+                  efficient C code, describes an implementation of the
+                  method and presents results achieved with this
+                  implementation: The translated code is 4.5--7.5
+                  times faster than Gforth (the fastest measured
+                  interpretive system), 1.3--3 times faster than
+                  BigForth 386 (a native code compiler), and smaller
+                  than Gforth's threaded code.}
+}
+
+@Proceedings{euroforth95,
+  title =        "EuroForth~'95 Conference Proceedings",
+  booktitle =    "EuroForth~'95 Conference Proceedings",
+  year =         "1995",
+  key =          "EuroForth '95",
+  address =      "Schloss Dagstuhl, Germany",
+}
+
+@article{FoKB1995,
+   author =    {A. Forst and {e.} K{\"{u}}hn and O. Bukhres},
+   title =     {General Purpose Work Flow Languages},
+   journal =   {Distributed and Parallel Databases},
+   volume =    3,
+   pages =     {187--218},
+   year =      1995,
+   number =    2,
+   month =     {April},
+   editor =    {A. K. Elmagarmid},
+   note =      {ISSN: 0926-8782},
+   publisher = {Kluwer Academic Publishers},
+}
+
+@inproceedings{gl951,
+  author = {R. Gl{\"u}ck and J. J{\o}rgensen},
+  title = {Efficient multi-level generating extensions for program specialization},	 
+  booktitle = {Programming Languages: Implementations, Logics and Programs}, 	 
+  year = 1995,	 
+  editor = {S. D. Swierstra and M. Hermenegildo},
+  series = {Lecture Notes in Computer Science 982},	
+  publisher = {Springer-Verlag},	
+  address = {Utrecht, The Netherlands},	
+  pages = {259--278}
+}	
+
+@inproceedings{gl952,
+  author = {R. Gl{\"u}ck and A. V. Klimov},
+  title = {Reduction of language hierarchies},
+  booktitle = {Proceedings of the 14th International Congress on Cybernetics},
+  year = 1995,
+  publisher = {International Association for Cybernetics},
+  address = {Namur, Belgium},
+}
+
+@inproceedings{gl953,
+  author = {R. Gl{\"u}ck and R. Nakashige and R. Z{\"o}chling},
+  title = {Binding-time analysis applied to mathematical algorithms},
+  booktitle = {System Modelling and Optimization},
+  year = 1995,
+  editor = {J. Dolezal and J. Fidler},
+  publisher = {Chapman and Hall},
+  address = {Prague, Czech Republic},
+  pages = {137--146},
+}
+
+@inproceedings{gl954,
+  author = {M. H. S{\o}rensen and R. Gl{\"u}ck},
+  title = {An algorithm of generalization in positive supercompilation},
+  booktitle = {Logic Programming: Proceedings of the 1995 International Symposium},
+  year = 1995,
+  editor = {J. W. Lloyd},
+  publisher = {MIT Press},
+  address = {Portland, Oregon},
+  pages = {465--479},
+}
+
+@inproceedings{gl955,
+  author = {P. Thiemann and R. Gl{\"u}ck},
+  title = {The generation of a higher-order online partial evaluator},
+  booktitle = {Fuji International Workshop on Functional and Logic Programming},
+  year = 1995,
+  editor = {M. Takeichi and T. Ida},
+  publisher = {World Scientific},
+  address = {Susono, Japan},
+}
+
+@INPROCEEDINGS{KrBe95a,
+        AUTHOR      = {Andreas Krall and Thomas Berger},
+        TITLE       = {Incremental Global Compilation of {Prolog} with the {Vienna Abstract Machine}},
+        BOOKTITLE   = {Twelfth International Conference on Logic Programming},
+        EDITOR      = {Leon Sterling},
+        PUBLISHER   = {MIT Press},
+        PAGES       = {333--347},
+        ADDRESS     = {Tokyo},
+        YEAR        = 1995}
+
+@INPROCEEDINGS{KrBe95b,
+        AUTHOR      = {Andreas Krall and Thomas Berger},
+        TITLE       = {The {VAM$_{\rm AI}$} - an Abstract machine for Incremental Global Dataflow Analysis of {Prolog}},
+        BOOKTITLE   = {ICLP'95 Post-Conference Workshop on Abstract Interpretation of Logic Languages},
+        EDITOR      = {Maria Garcia de la Banda and Gerda Janssens and Peter Stuckey},
+        PUBLISHER   = {Science University of Tokyo},
+        PAGES       = {80--91},
+        ADDRESS     = {Tokyo},
+        YEAR        = 1995}
+
+@PROCEEDINGS{KrGe95,
+        TITLE       = {{11. Workshop Logische Programmierung}},
+        EDITOR      = {Andreas Krall and Ulrich Geske},
+        SERIES      = {GMD-Studien Nr. 270},
+        ADDRESS     = {Wien},
+        YEAR        = 1995}
+
+@UNPUBLISHED{Kral95,
+        AUTHOR      = {Andreas Krall},
+        TITLE       = {Fast Abstract Interpretation of Prolog with an Abstract
+                       Machine},
+        NOTE        = {4th Workshop on Functional Logic Programming, Schwarzenberg},
+        YEAR        = 1995}
+
+@UNPUBLISHED{Neu95-2,
+        AUTHOR      = {Ulrich Neumerkel},
+        TITLE       = {{Tutorial: Teaching beginners Prolog, How to teach Prolog}},
+        NOTE        = {International Conference on the Pratical
+                       Application of Prolog, Paris},
+        YEAR        = 1995}
+
+@INPROCEEDINGS{Neu95-3,
+        AUTHOR      = {Ulrich Neumerkel},
+        TITLE       = {Interprozedurale {Registerallokation} durch
+                       {Quelltexttransformationen}},
+        BOOKTITLE   = {{11. Workshop Logische Programmierung}},
+        EDITOR      = {Andreas Krall and Ulrich Geske},
+        SERIES      = {GMD-Studien Nr. 270},
+        ADDRESS     = {Wien},
+        YEAR        = 1995}
+
+@UNPUBLISHED{Neu95-4,
+        AUTHOR      = {Ulrich Neumerkel},
+        TITLE       = {Transforming binary logic programs using Continuation
+                       Prolog},
+        NOTE        = {INTAS Workshop Efficient Symbolic Computing, Namur},
+        YEAR        = 1995}
+
+@INPROCEEDINGS{Neu95-5,
+        AUTHOR      = {Ulrich Neumerkel},
+        BOOKTITLE   = {ILPS 95 Workshop on Sequential Implementation Technologies for
+                       Logic Programming Languages},
+        EDITOR      = {Zoltan Somogy and Lee Naish and Fergus Henderson and
+                       Thomas Conway},
+        TITLE       = {Continuation Prolog: A new intermediary
+                       language for WAM and BinWAM code generation},
+        ADDRESS     = {Portland},
+        YEAR        = 1995}
+
+
+@InProceedings{PuntOOPMOC95,
+  author =       "Franz Puntigam",
+  title =        "Flexible Types for a Concurrent Model",
+  booktitle =    "Proceedings of the Workshop on Object-Oriented
+                  Programming and Models of Concurrency",
+  year =         1995,
+  address =      "Torino",
+  month =        "June",
+}
+
+@InProceedings{PuntWLP95,
+  author =       "Franz Puntigam",
+  title =        {Typen f{\"u}r logikbasierte aktive {Objekte}},
+  booktitle =    "Workshop Logische Programmierung",
+  year =         1995,
+  month =        "Sept",
+  address =      "Vienna",
+  series =       "{GMD}-Studien",
+  number =       270,
+}
+
+@InProceedings{PuntFORTE95,
+  author =       "Franz Puntigam",
+  title =        "Type Specifications with Processes",
+  booktitle =    "Proceedings {FORTE}'95",
+  year =         1995,
+  address =      "Montreal",
+  publisher =    "IFIP",
+  month =        "Oct",
+}
+
+@ARTICLE{WaKr95a,
+        AUTHOR      = {Jian Wang and Andreas Krall and M. Anton Ertl},
+        TITLE       = {Trace Software Pipelining},
+        JOURNAL     = {Journal of Computer Science and Technology},
+        YEAR        = 1995}
+
+@INPROCEEDINGS{WaKr95b,
+        AUTHOR      = {Jian Wang and Andreas Krall and M. Anton Ertl},
+        TITLE       = {Decomposed Software Pipelining with reduced Register Requirement},
+        BOOKTITLE   = {International Conference on Parallel Architectures and
+                       Compilation Techniques},
+        EDITOR      = {Jean-Luc Gaudiot},
+        ORGANIZATION= {IFIP,ACM,IEEE},
+        PUBLISHER   = {North-Holland},
+        PAGES       = {277--280},
+        ADDRESS     = {Limassol},
+        YEAR        = 1995}
+
+@INPROCEEDINGS{WaKr95c,
+        AUTHOR      = {Jian Wang and Andreas Krall and M. Anton Ertl},
+        TITLE       = {Register Requirement for Exploiting Loops' Maximum
+                       Instruction-Level Parallelism},
+        BOOKTITLE   = {The Fourth International Conference for Young Computer Scientists},
+        EDITOR      = {Shou Bai and Jianping Fan and Xiaozhong Li},
+        PUBLISHER   = {Peking University Press},
+        PAGES       = {70--75},
+        ADDRESS     = {Beijing},
+        YEAR        = 1995}
+
+
+@INPROCEEDINGS{Yann95,
+        AUTHOR          = {Marinos Yannikos},
+        TITLE           = {Partielle Maschinencodegenerierung f{\"u}r bin{\"a}res {Prolog}},
+        BOOKTITLE       = {{11. Workshop Logische Programmierung}},
+        EDITOR      = {Andreas Krall and Ulrich Geske},
+        SERIES      = {GMD-Studien Nr. 270},
+        ADDRESS     = {Wien},
+        YEAR        = 1995}
+
+
+
+
+
+

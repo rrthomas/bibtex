@@ -1,0 +1,989 @@
+Research bibliography database
+Reuben Thomas   2/96-3/4/01
+
+
+
+Macros
+
+@string{mit = {Massachusetts Institute of Technology}}
+@string{spe = {Software---Practice and Experience}}
+@string{oreilly = {O'Reilly \& Associates}}
+
+
+Virtual machines
+
+Execution environments
+
+@Misc{java,
+  author = "James Gosling and Henry McGilton",
+  title = "The {J}ava Language Environment: A White Paper",
+  note = "\url{http://java.sun.com/}",
+  month = may,
+  year = 1996}
+
+@Book{jvm,
+  author = "Tim Lindholm and Frank Yellin",
+  title = "The {J}ava Virtual Machine Specification",
+  edition = "Second",
+  publisher = "Addison-Wesley",
+  year = 1999}
+
+@Book{jvmsem,
+  editor = "J. Alves-Foss",
+  title = "Formal Syntax and Semantics of {J}ava",
+  series = "Lecture Notes in Computer Science",
+  volume = 1523,
+  publisher = "Springer-Verlag",
+  year = 1999}
+
+@InProceedings{cacao,
+  author = "Andreas Krall",
+  title = "Efficient {JavaVM} Just-In-Time Compilation",
+  booktitle = "{PACT} '98 proceedings",
+  year = 1998}
+
+@Misc{dis,
+  author = "Phil Winterbottom and Rob Pike",
+  title = "The design of the {I}nferno virtual machine",
+  note = "Lucent Technologies",
+  url = "\url{http://plan9.bell-labs.com/cm/cs/who/rob/hotchips.html}",
+  year = 1997}
+
+@InCollection{disspec,
+  title = "Dis Virtual Machine Specification",
+  booktitle = "Inferno User's Guide",
+  publisher = "Lucent Technologies",
+  key = "Lucent Technologies",
+  chapter = "7",
+  year = 1997}
+
+@Misc{disspeed,
+  author = "Rob Pike",
+  note = "{L}ucent {T}echnologies",
+  howpublished = "Private communication",
+  year = 1997}
+
+@InProceedings{inferno,
+  author = "S. Dorward and others",
+  title = "{I}nferno",
+  booktitle = "IEEE Compcon~'97 Proceedings",
+  year = 1997}
+
+@Misc{juice,
+  author = "Michael Franz and Thomas Kistler",
+  title = "Introducing {J}uice",
+  note = "\url{http://caesar.ics.uci.edu/juice/intro.html}",
+  year = 1996}
+
+@Misc{practical,
+  title = "The {PRACTICAL} Virtual Machine Architecture",
+  author = "MicroProcessor Engineering",
+  year = 1998}
+
+@Misc{elate,
+  title = "Elate",
+  key = "Tao Systems",
+  author = "Tao Systems",
+  year = 1999,
+  note = "\url{http://www.tao.co.uk/}"}
+
+@InProceedings{omniware,
+  author = "S. Lucco and O. Sharp and R. Wahbe",
+  title = "Omniware: A Universal Substrate for Mobile Code",
+  booktitle = "Proceedings of Fourth International World Wide Web 
+               Conference",
+  address = mit,
+  year = 1995,
+  note = "\url{http://www.w3.org/pub/Conferences/WWW4/Papers/165/}"}
+
+@InProceedings{omniware2,
+  author = "A. Adl-Tabatabai and G. Langdale and S. Lucco and R. Wahbe",
+  title = "Efficient and Language-Independent Mobile Programs",
+  booktitle = "Proceedings of the {ACM} {SIGPLAN} Symposium on Programming
+               Language Design and Implementation ({PLDI}~'96)",
+  publisher = "ACM",
+  address = "Philadelphia, PA",
+  pages = "127--136",
+  month = may,
+  year = 1996}
+
+@Misc{origin,
+  author = "180 Software Ltd",
+  title = "{ORIGIN} White Paper",
+  note = "\url{http://www.180sw.com/}",
+  year = 2000}
+
+@Misc{lightning,
+  author = "Paulo Bonzini",
+  title = "Using and porting {GNU} \textit{lightning}",
+  note = "\url{ftp://alpha.gnu.org/gnu/}",
+  year = 2000}
+
+
+Poplog
+
+@TechReport{pop2level,
+  author = "Robert Smith and Aaron Sloman and John Gibson",
+  title = "{P}oplog's Two-Level Virtual Machine Support for Interactive
+           Languages",
+  institution = "University of Sussex",
+  number = "CSRP~153",
+  year = 1990}
+
+@TechReport{pophigh,
+  author = "Robert M. Smith",
+  title = "A High Performance Version of the {POPLOG} Virtual Machine",
+  institution = "University of Sussex",
+  number = "CSRP~117",
+  year = 1988}
+
+@TechReport{poplog,
+  author = "Steven Hardy",
+  title = "The {POPLOG} Programming System",
+  institution = "University of Sussex",
+  number = "CSRP~003",
+  year = 1982}
+
+@TechReport{stacksemant,
+  author = "Robin Popplestone",
+  title = "A Typed Operational Semantics Based on Grammatical
+    	   Characterisation of an Abstract Machine",
+  institution = "University of Glasgow",
+  number = "FP-94-02",
+  year = 1994}
+
+@TechReport{stacktype,
+  author = "Robin Popplestone",
+  title = "Specifying Types by Grammars: A Polymorphic Static Type Checker
+    	   Operating at a Stack Machine Level",
+  institution = "University of Glasgow",
+  number = "FP-94-01",
+  year = 1994}
+
+
+Cintcode and BCPL
+
+@Book{bcpl,
+  author = "Martin Richards and Colin Whitby-Strevens",
+  title = "BCPL---the language and its compiler",
+  publisher = "Cambridge University Press",
+  year = 1979}
+
+@TechReport{intcode,
+  author = "Martin Richards",
+  title = "Intcode: an Interpretive Machine Code for {BCPL}",
+  institution = "University of Cambridge Computer Laboratory",
+  month = dec,
+  year = 1972,
+  note = "Revised " # aug # " 1975"}
+
+@Manual{cintcode,
+  author = "Chris Jobson and John Richards",
+  title = "{BCPL} for the {BBC} Microcomputer",
+  publisher = "Acornsoft",
+  year = 1983}
+
+@Misc{cintweb,
+  author = "Martin Richards",
+  title = "{C}intcode distribution",
+  note = "\url{http://www.cl.cam.ac.uk/~mr/BCPL.html}",
+  year = 2000}
+
+
+C--
+  
+@InProceedings{c--,
+  author = "Peyton Jones, Simon and Thomas Nordia and Dino Oliva",
+  title = "\texttt{C-{}-}: A Portable Assembly Language",
+  booktitle = "Proceedings of the 1997 Workshop on Implementing Functional
+               Languages",
+  year = 1997}
+
+@InProceedings{c--gc,
+  author = "Peyton Jones, Simon and Norman Ramsey and Fermin Reig",
+  title = "\texttt{C-\/-}: a portable assembly language that supports garbage
+           collection",
+  booktitle = "Proceedings of {PPDP} '99",
+  year = 1999}
+
+@InProceedings{c--except,
+  author = "Norman Ramsey and Peyton Jones, Simon",
+  title = "A Single Intermediate Language That Supports Multiple
+           Implementations of Exceptions",
+  booktitle = "Proceedings of {PLDI} '00",
+  year = 2000}
+
+@Misc{c--conc,
+  author = "Peyton Jones, Simon and Norman Ramsey",
+  title = "The \texttt{C-\/-} run-time interface for concurrency",
+  note = "\url{http://www.cminusminus.org/abstracts/c--concurrency.html}",
+  year = 2000}
+
+
+Miscellaneous
+
+@InProceedings{twolevel,
+  author = "Thomas Pittman",
+  title = "Two-level Hybrid Interpreter/Native Code Execution for Combined
+	   Space-Time Program Efficiency",
+  booktitle = "Symposium on Interpreters and Interpretive Techniques
+               (SIGPLAN~'87)",
+  pages = "150--152",
+  year = 1987}
+
+@InCollection{pcode,
+  author = "Nori, K. V. and Ammann, U. and Nabeli, H. H. and Jacobi, Ch.",
+  title = "{P}ascal {P} Implementation notes",
+  editor = "Barron, D. W.",
+  booktitle = "Pascal---The Language and its Implementation",
+  publisher = "Wiley",
+  year = 1981,
+  pages = "125--170"}
+
+@Book{pcode4,
+  author = "S. Pemberton and M. C. Daniels",
+  title = "Pascal implementation: the {P}4 compiler",
+  publisher = "John Wiley {\&} Sons",
+  year = 1982}
+
+@Article{oovm,
+  author = "David W. Sandberg",
+  title = "Experience With an Object-Oriented Virtual Machine",
+  journal = spe,
+  volume = 18,
+  number = 5,
+  year = 1988,
+  pages = "415--425"}
+
+@InProceedings{virttime,
+  author = "Richard M. Fujimoto",
+  title = "The Virtual Time Machine",
+  editor = "Leighton, F.",
+  booktitle = "Proceedings of the 1989 {ACM} Symposium",
+  address = "Santa Fe, Mexico",
+  pages = "35--44",
+  year = 1989}
+
+@Book{intcoproc,
+  author = "Eddy H. Debaere and Van Campenhout, Jan M.",
+  title = "Interpretation and Instruction Path Coprocessing",
+  publisher = "{MIT} Press",
+  year = 1990}
+
+@Book{intcomp,
+  author = "P. J. Brown",
+  title = "Writing Interactive Compilers and Interpreters",
+  publisher = "Wiley",
+  year = 1979}
+
+@Article{uncol,
+  author = "Steel, Jr., T. B.",
+  title = "{UNCOL}",
+  journal = "Ann. Rev. Auto. Prog.",
+  volume = 2,
+  year = 1960,
+  pages = "325--344"}
+
+@Misc{sod,
+  author = "Lennart Benschop",
+  title = "SOD32",
+  year = 1995,
+  note = "Posted to \url{comp.sources.misc}, Volume 46, Issue 7"}
+
+@TechReport{wam,
+  author = "D. H. D. Warren",
+  title = "An Abstract {P}rolog Instruction Set",
+  institution = "SRI International",
+  type = "Technical Note",
+  number = 300,
+  year = 1983}
+
+@Article{interptechniq,
+  author = "Paul Klint",
+  title = "Interpretation Techniques",
+  journal = spe,
+  volume = 11,
+  year = 1981,
+  pages = "963--973"}
+
+@Article{interpclass,
+  author = "Rolf Hoffmann",
+  title = "A Classification of Interpreter Systems",
+  journal = "Microprocessing and Microprogramming",
+  volume = 12,
+  year = 1983,
+  pages = "3--8"}
+
+@InProceedings{interpperf,
+  author = "Theodore H. Romer and Geoffrey M. Voelker and Alec Wolman and
+            Wayne A. Wong and Jean-Loup Baer and Brian N. Bershad and
+            Henry M. Levy",
+  title = "The Structure and Performance of Interpreters",
+  booktitle = "Proceedings of {ASPLOS} {VII}",
+  pages = "150--159",
+  address = "University of Washington, Seattle"}
+
+@Manual{andf,
+  title = "Architecture Neutral Distribution Format ({XANDF}) Specification",
+  organization = "The Open Group",
+  note = "Preliminary Specification P527",
+  month = jan,
+  year = 1996}
+
+@Misc{andfdist,
+  title = "TenDRA Home Page",
+  key = "TenDRA",
+  note = "\url{http://alph.dra.hmg.gb/TenDRA/}",
+  year = 1998}
+  
+@Misc{andfinfo,
+  author = "Nic Peeling",
+  title = "{ANDF}---some information",
+  note = "\url{comp.compilers}",
+  month = nov # "~18th",
+  year = 1993}
+
+@InProceedings{talx86,
+  author = "Greg Morrisett and Karl Crary and Neal Glew and Dan Grossman and
+            Richard Samuels and Frederick Smith and David Walker and
+            Stephanie Weirich and Steve Zdancewic",
+  title = "{TALx86}: A Realistic Typed Assembly Language",
+  booktitle = "1999 {ACM} {SIGPLAN} Workshop on Compiler Support for System
+               Software",
+  pages = "25--35",
+  address = "Atlanta, GA, USA",
+  month = may,  
+  year = 1999}
+
+@Book{pvm,
+  author = "Al Geist and Adam Beguelin and Jack Dongarra and Weicheng Jiang
+            and Robert Manchek and Vaidy Sunderam",
+  title = "Parallel Virtual Machine: A Users' Guide and Tutorial for
+           Networked Parallel Computing",
+  publisher = "{MIT} Press",
+  year = 1994}
+
+
+Code generators
+
+@InProceedings{vcode,
+  author = "Dawson R. Engler",
+  title = "\textsc{vcode}: A Retargetable, Extensible, Very Fast Dynamic
+           Code Generation System",
+  booktitle = "Proceedings of the 23rd Annual {ACM} Conference on Programming
+               Language Design and Implementation",
+  note = "\url{http://www.pdos.lcs.mit.edu/~engler/}",
+  year = 1996}
+
+@InProceedings{tickclang,
+  author = "Dawson R. Engler and Wilson C. Hsieh and M. Frans Kaashoek",
+  title = "`{C}: A Language for High-Level, Efficient, and 
+           Machine-Independent Dynamic Code Generation",
+  booktitle = "Proceedings of the 23rd Annual {ACM} Symposium on Principles 
+               of Programming Languages",
+  year = 1996}
+
+@InProceedings{tickccomp,
+  author = "Massimiliano Poletto and Dawson R. Engler and M. Frans Kaashoek",
+  title = "tcc: A System for Fast, Flexible and High-level Dynamic Code
+           Generation",
+  booktitle = "Proceedings of the {ACM} {SIGPLAN} Conference on Programming
+           Language Design and Implementation~'97",
+  year = 1997}
+
+@Misc{pasm,
+  author = "Michael Brown",
+  title = "\textsc{pasm}---Portable runtime assembler",
+  note = "\url{http://www.washery.com/projects/pasm/}"}
+
+@TechReport{mlrisc,
+  author = "L. George",
+  title = "{MLRISC}: Customizable and reusable code generators",
+  institution = "AT{\&}T Bell Laboratories, Murray Hill, NJ",
+  year = 1997}
+
+@Misc{crt,
+  organization = "Microsoft Corporation",
+  key = "Microsoft Corporation",
+  title = ".{NET} Framework {SDK} Technology Preview",
+  note = "\url{http://msdn.microsoft.com/downloads/}"}
+
+
+Real machines
+
+@Manual{alpha,
+  author = "Richard L. Sites",
+  title = "{A}lpha architecture reference manual",
+  organization = "Digital Equipment Corporation",
+  year = 1992}
+
+@Book{arm,
+  author = "David Jaggar",
+  title = "{ARM} Architectural Reference Manual",
+  publisher = "Prentice Hall Europe",
+  year = 1996}
+
+@Manual{apcs,
+  title = "The {ARM}--{THUMB} Procedure Call Standard",
+  organization = "Arm Limited",
+  year = 1998,
+  note = "\url{http://www.arm.com/}"}
+
+@Book{motorola,
+  author = "Steve Williams",
+  title = "{68030} Assembly Language Reference",
+  publisher = "Addison-Wesley",
+  year = 1989}
+
+@Book{ia32,
+  author = "Barry B. Brey",
+  title = "Programming the 80286, 80386, 80486 and Pentium-based Personal
+           Computer",
+  publisher = "Prentice-Hall",
+  year = 1996}
+
+@Book{mips,
+  author = "Gerry Kane and Joe Heinrich",
+  title = "{MIPS} {RISC} Architecture",
+  publisher = "Prentice-Hall",
+  year = 1992}
+
+@Book{sparc,
+  editor = "David L. Weaver and Tom Gamond",
+  title = "The {SPARC} Architecture Manual",
+  publisher = "Prentice-Hall",
+  year = 1994}
+
+
+
+OSs
+
+@TechReport{mach,
+  author = "Mike Acetta and Robert Baron and David Golub and Richard Rashid
+            and Avadis Tevanian and Michael Young",
+  title = "{M}ach: a new kernel foundation for {UNIX} development",
+  institution = "Carnegie Mellon University",
+  year = 1986}
+
+@InProceedings{beowulf,
+  author = "Daniel Ridge and Donald Becker and Phillip Merkey and Thomas
+            Sterling",
+  title = "Beowulf: Harnessing the Power of Parallelism in a Pile-of-{PC}s",
+  booktitle = "Proceedings of {IEEE} Aerospace",
+  year = 1997}
+
+
+
+Silicon compilation
+
+@InCollection{occamfpga,
+  author = "Ian Page and Wayne Luk",
+  title = "Compiling Occam into {FPGAs}",
+  editor = "W. R. Moore and W. Luk",
+  booktitle = "{FPGAs}",
+  chapter = "5.3",
+  publisher = "Abingdon EE{\&}CS Books",
+  year = 1991}
+
+@InCollection{comppar,
+  author = "Wayne Luk and David Ferguson and Ian Page",
+  title = "Structured Hardware Compilation of Parallel Programs",
+  editor = "W. Moore and W. Luk",
+  booktitle = {More {FPGAs}},
+  pages = "213--224",
+  publisher = "Abingdon EE{\&}CS Books",
+  year = 1994}
+
+@InCollection{paramfpga,
+  author = "Wayne Luk and Ian Page",
+  title = "Parameterising Designs for {FPGAs}",
+  editor = "W. R. Moore and W. Luk",
+  booktitle = "{FPGAs}",
+  chapter = "5.4",
+  publisher = "Abingdon EE{\&}CS Books",
+  year = 1991}
+
+
+
+Code Generation
+
+@Book{reddragon,
+  author = "Alfred V. Aho and Ravi Sethi and Jeffrey D. Ullman",
+  title = "Compilers: Principles, Techniques and Tools",
+  publisher = "Addison-Wesley",
+  year = 1986}
+
+@InProceedings{globalopt,
+  author = "Manuel E. Benitez and Jack W. Davidson",
+  title = "The advantages of machine-dependent global optimization",
+  booktitle = "International Conference on Programming Language and
+               Architectures ({PLSA}~'94)",
+  pages = "105--123",
+  year = 1994}
+
+@InProceedings{runtimeopt,
+  author = "Mark Leone and Peter Lee",
+  title = "Lightweight Run-Time Code Generation",
+  booktitle = "Proceedings of the {ACM} {SIGPLAN} Workshop on Partial 
+               Evaluation and Semantics-Based Program Manipulation",
+  pages = "97--106",
+  month = jun,
+  year = 1994}
+
+@TechReport{deferredcomp,
+  author = "Mark Leone and Peter Lee",
+  title = "Deferred Compilation: The Automation of Run-Time Code Generation",
+  number = "CMU-CS-93-225",
+  institution = "School of Computer Science, Carnegie Mellon University",
+  month = dec,
+  year = 1993}
+
+@Article{minloadstore,
+  author = "Wei-Chung Hsu and Charles N. Fischer and James R. Goodman",
+  title = "On the Minimization of Loads/Stores in Local Register Allocation",
+  journal = "{IEEE} Transactions on Software Engineering",
+  volume = 15,
+  number = 10,
+  pages = "1252--1260",
+  month = oct,
+  year = 1989}
+
+@InProceedings{binpacking,
+  author = "Omri Traub and Glenn Holloway and Michael D. Smith",
+  title = "Quality and speed in linear-scan register allocation",
+  booktitle = "Proceedings of the ACM SIGPLAN '98 conference on
+               Programming language design and implementation",
+  pages = "142--151",
+  year = 1998}
+
+@TechReport{proofcarry,
+  author = "George Necula",
+  title = "Compiling with Proofs",
+  number = "CMU-CS-98-154",
+  institution = "School of Computer Science, Carnegie Mellon University",
+  month = sep,
+  year = 1998}
+
+
+
+Languages and formal notations
+
+ML
+
+@Book{ml,
+  author = "Robin Milner and Mads Tofte and Robert Harper",
+  title = "The definition of {S}tandard {ML}",
+  publisher = "MIT Press",
+  address = "Cambridge, MA",
+  year = 1990}
+
+@Book{mlcomm,
+  author = "Robin Milner and Mads Tofte",
+  title = "Commentary on {S}tandard {ML}",
+  publisher = "MIT Press",
+  address = "Cambridge, MA",
+  year = 1991}
+
+@Misc{mljava,
+  author = "MLj team",
+  title = "The {ML}j compiler",
+  year = 1999,
+  note = "\url{http://www.dcs.ed.ac.uk/~mlj/}"}
+
+@Article{secd,
+  author = "P. J. Landin",
+  title = "The Mechanical Evaluation of Expressions",
+  journal = "Computer Journal",
+  volume = 6,
+  pages = "308--320",
+  month = jan,
+  year = 1964}
+
+
+Pict & Pi-calculus
+
+@InCollection{picalc,
+  author = "Robin Milner",
+  title = "The Polyadic {$\pi$}-Calculus: A Tutorial",
+  editor = "F. L. Bauer and W. Brauer and H. Schwichtenberg",
+  booktitle = "Logic and Algebra of Specification",
+  pages = "203--246",
+  publisher = "Springer Verlag",
+  year = 1993}
+
+@Misc{pict,
+  author = "Benjamin C. Pierce",
+  title = "The Pict Programming Language",
+  year = 1995,
+  note = "\url{http://www.cis.upenn.edu/~bcpierce/}"}
+
+
+LISP & Scheme
+
+@Manual{lisp,
+  author = "J. McCarthy",
+  title = "{LISP} programmers' manual",
+  organization = "MIT Computation Center",
+  address = "Cambridge, MA",
+  year = 1960}
+
+@InProceedings{lispemul,
+  author = "Harold Carr and Robert R. Kessler",
+  title = "An Emulator for {U}tah {C}ommon {L}isp's Abstract Virtual Register
+    	   Machine",
+  booktitle = "Proceedings of the 1987 Rochester Forth Conference",
+  pages = "113--116",
+  address = "Rochester, NY",
+  year = 1987}
+
+@InProceedings{parscheme,
+  author = "Marc Feeley and James S. Miller",
+  title = "A Parallel Virtual Machine for Efficient {S}cheme Compilation",
+  booktitle = "Proceedings of the 1990 {ACM} Conference",
+  address = "Nice, France",
+  pages = "119--130",
+  year = 1990}
+
+@Article{scheme5,
+  author = "Richard Kelsey and William Clinger and Jonathan Rees and others",
+  title = "Revised$^5$ Report on the Algorithmic Language {S}cheme",
+  journal = "Higher-Order and Symbolic Computation",
+  volume = 11,
+  number = 1,
+  pages = "7--105",
+  note = "\url{http://www.swiss.ai.mit.edu/projects/scheme/}",
+  month = aug,
+  year = 1998}
+
+@InProceedings{scheme81,
+  author = "John Batali and Edmund Goodhue and Chris Hanson and Howie Shrobe
+    	    and Richard M. Stallman and Gerald Jay Sussman",
+  title = "The {S}cheme-81 architecture---system and chip",
+  booktitle = "Proceedings of the {MIT} Conference on Advanced Research in
+               {VLSI}",
+  editor = "Penfield, Jr., Paul",
+  address = "Dedham, Mass.",
+  year = 1982}
+
+@Manual{lispmach,
+  author = "Daniel Weinreb and David Moon",
+  title = "{LISP} Machine Manual",
+  organization = mit,
+  year = 1979}
+
+
+Miranda
+
+@Book{miranda,
+  author = "Ian Holyer",
+  title = "Functional Programming with {M}iranda",
+  publisher = "Pitman",
+  year = 1991}
+
+@Article{combreduc,
+  author = "David A. Turner",
+  title = "A New Implementation Technique for Applicative Languages",
+  journal = spe,
+  volume = 9,
+  pages = "31--49",
+  year = 1979}
+
+
+Forth
+
+@InProceedings{stackcache,
+  author = "M. Anton Ertl",
+  title = "Stack Caching for Interpreters",
+  booktitle = "{E}uro{F}orth~'94 Conference proceedings",
+  pages = "3--12",
+  address = "Winchester, UK",
+  year = 1994}
+
+@InProceedings{portforth,
+  author = "M. Anton Ertl",
+  title = "A Portable {F}orth Engine",
+  booktitle = "{E}uro{FORTH}~'93 conference proceedings",
+  address = "Mari{\'a}nsk{\'e} L{\'a}zn{\`e} (Marienbad)",
+  year = 1993}
+
+@Book{threaded,
+  author = "R. G. Loeliger",
+  title = "Threaded Interpretive Languages: Their Design and Implementation",
+  publisher = "{BYTE} Books",
+  address = "Peterborough, NH",
+  year = 1981}
+
+@Misc{mf,
+  author = "Charles Moore and Jeff Fox",
+  title = "Preliminary specification of the {F21}",
+  year = 1998,
+  note = "\url{http://www.ultratechnology.com/f21data.pdf}"}
+
+@Article{forthjavamb,
+  author = "Mark Roulo",
+  title = "{M}isty {B}each {F}orth: An Implementation in {J}ava",
+  journal = "Forth Dimensions",
+  volume = "XIX",
+  number = 4,
+  month = nov # "--" # dec,
+  year = 1997}
+
+@Misc{forthjavad,
+  author = "Valer Bocan",
+  title = "DELTA Forth",
+  year = 1999,
+  note = "\url{http://www.dataman.ro/dforth/}"}
+
+@Book{starting4th,
+  author = "Leo Brodie",
+  title = "Starting {FORTH}",
+  publisher = "Prentice-Hall",
+  edition = "Second",
+  year = 1987}
+
+@Book{thinking4th,
+  author = "Leo Brodie",
+  title = "Thinking {FORTH}",
+  publisher = "Prentice-Hall",
+  year = 1984}
+
+@Manual{ANSIforth,
+  organization = "American National Standards Institute",
+  title = "ANS~X3.215-1994: Programming Languages---Forth",
+  year = 1994}
+
+@Article{forthsieve,
+  author = "Jim Galbreath",
+  title = "A High-Level Language Benchmark",
+  journal = "BYTE",
+  volume = "6",
+  number = 9,
+  pages = "180--198",
+  year = 1989}
+
+
+C
+
+@Manual{ANSIC,
+  organization = "American National Standards Institute",
+  title = "ANS~X3.159-1989: Programming Languages---C",
+  month = dec,
+  year = 1989}
+
+@Manual{ISOC,
+  organization = "International Organization for Standardization",
+  title = "ISO/IEC~9899-1999: Programming Languages---C",
+  month = dec,
+  year = 1999}
+
+
+Others
+
+@Book{smalltalk,
+  editor = "Glenn Krasner",
+  title = "{S}malltalk-80: Bits of History, Words of Advice",
+  publisher = "Addison-Wesley",
+  year = 1983}
+
+@Article{aplgen,
+  author = "M. Alfonseca and D. Selby and R. Wilks",
+  title = "The {APL} {IL} Interpreter Generator",
+  journal = "{IBM} Systems Journal",
+  volume = 30,
+  number = 4,
+  year = 1991,
+  pages = "490--497"}
+
+@TechReport{occam,
+  author = "A. W. Roscoe and C. A. R. Hoare",
+  title = "The laws of occam programming",
+  institution = "University of Oxford Computer Laboratory",
+  type = "Technical monograph",
+  number = "PRG-53",
+  year = 1986}
+
+@Article{floydhoare,
+  author = "C. A. R. Hoare",
+  title = "An Axiomatic Basis for Computer Programming",
+  journal = "Communications of the {ACM}",
+  volume = 12,
+  year = 1969,
+  pages = "576--583"}
+
+@Book{lcc,
+  author = "Christopher Fraser and David Hanson",
+  title = "A Retargetable {C} Compiler: Design and Implementation",
+  publisher = "Addison-Wesley",
+  year = 1995}
+
+@InBook{krc,
+  author = "David A. Turner",
+  title = "Recursion equations as a programming language",
+  booktitle = "Functional Programming and its Applications",
+  publisher = "Cambridge University Press",
+  pages = "1--28",
+  month = jan,
+  year = 1981}
+
+@Misc{haskell,
+  editor = "Peyton Jones, Simon and John Hughes",
+  key = "Peyton Jones, Simon and John Hughes",
+  title = "Haskell 98: A Non-strict, Purely Functional Language",
+  note = "\url{http://www.haskell.org/definition/}",
+  year = 1999}
+
+@Book{camel,
+  author = "Larry Wall and Tom Christiansen and Randal L. Schwartz",
+  title = "Programming Perl",
+  edition = "Second",
+  publisher = oreilly,
+  month = sep,
+  year = 1996}
+
+@Book{python,
+  author = "Mark Lutz",
+  title = "Programming Python",
+  publisher = oreilly,
+  month = oct,
+  year = 1996}
+
+@Book{oberon,
+  author = "N. Wirth and M. Reiser",
+  title = "Programming in {O}beron---Steps Beyond {P}ascal and {M}odula",
+  publisher = "Addison-Wesley", 
+  year = 1992}
+
+
+Miscellaneous
+
+@Article{romcompress,
+  author = "Earle, W.",
+  title = "Compress {ROM} Programs With a Math-Function Interpreter",
+  journal = "Electronic Design News",
+  month = mar # "~31st",
+  year = 1982}
+
+@InProceedings{ssd,
+  author = "Steven Lucco",
+  title = "Split-Stream Dictionary Program Compression",
+  booktitle = "Proceedings of the ACM SIGPLAN '00 conference on
+               Programming language design and implementation",
+  pages = "27--34",
+  year = 2000}
+
+@Misc{LZOlib,
+  author = "Markus F. X. J. Oberhumer",
+  title = "{LZO} data compression library",
+  note = "\url{http://wildsau.idv.uni-linz.ac.at/mfx/lzo.html}",
+  year = 1999}
+
+@Manual{stanbench,
+  author = "J. Hennessy and P. Nye",
+  title = "Stanford Integer Benchmarks",
+  address = "Stanford University",
+  note = "\url{ftp://ftp.complang.tuwien.ac.at/pub/forth/}"}
+
+@Article{dhrystone,
+  author = "Reinhold P. Weicker",
+  title = "{D}hrystone Benchmark: Rationale for Version 2 and
+           Measurement Rules",
+  journal = "{SIGPLAN} Notices",
+  volume = 23,
+  number = 8,
+  pages = "49--62",
+  month = aug,
+  year = 1988}
+
+@Book{garbage,
+  author = "Richard Jones and Rafael Lins",
+  title = "Garbage Collection",
+  publisher = "John Wiley and Sons Ltd",
+  year = 1996}
+
+@Article{boehmdw,
+  author = "Hans-Juergen Boehm and Mark Weiser",
+  title = "Garbage collection in an uncooperative environment",
+  journal = spe,
+  volume = 18,
+  number = 9,
+  pages = "807--820",
+  year = 1988}
+
+@Article{arenas,
+  author = "David R. Hanson",
+  title = "Fast allocation and deallocation of memory based on object
+           lifetimes",
+  journal = spe,
+  volume = 20,
+  number = 1,	   
+  pages = "5--12",
+  year = 1990}
+
+@Misc{v,
+  author = "Bruce E. Wampler",
+  title = "The {V} Reference Manual",
+  note = "\url{ftp://objectcentral.com/vref.pdf}",
+  year = 1999}
+
+@Book{javaawt,
+  author = "John Zukowski",
+  title = "Java {AWT} Reference",
+  series = "Java Series",
+  publisher = oreilly,
+  year = 1997}
+
+@Misc{seh,
+  author = "Matt Pietrek",
+  title = "A Crash Course on the Depths of {Win32} Structured Exception
+           Handling",
+  note = "\url{http://www.microsoft.com/msj/0197/exception/exception.htm}",
+  year = 1997}
+
+@Misc{naglib,
+  author = "Numerical Algorithms Group",
+  title = "{NAG} {FORTRAN} Library",
+  note = "\url{http://www.nag.com/}"}
+
+@Misc{gcc,
+  author = "Free Software Foundation",
+  title = "{GCC} Compiler Collection",
+  note = "\url{http://www.gnu.org/software/gcc/}"}
+
+@Misc{glibc,
+  author = "Free Software Foundation",
+  title = "{GNU} {C} Library",
+  note = "\url{http://www.gnu.org/software/libc/}"}
+
+@Misc{distnet,
+  key = "distributed.net",
+  title = "distributed.net",
+  note = "\url{http://www.distributed.net/}"}
+
+
+
+Standards
+
+@Manual{ASCII,
+  organization = "American National Standards Institute",
+  title = "ANS~X3.4-1986(R1997): Information Systems: Coded Character
+           Sets---7-Bit American National Standard Code for Information
+	   Interchange",
+  year = 1997}
+
+@Manual{UTF-8,
+  organization = "International Organization for Standardization",
+  title = "ISO/IEC~10646-1:1993 Information technology---Universal
+           Multiple-Octet Coded Character Set (UCS)---Part 1: Architecture
+	   and Basic Multilingual Plane",
+  year = 1993}
+
+@Manual{IEEEfp,
+  organization = "Institute of Electrical and Electronics Engineers",
+  title ="IEEE~754-1985(R1994): IEEE Standard for Binary Floating-Point
+          Arithmetic",
+  year = 1994}
+
+@Manual{elf,
+  organization = "Tools Interface Standards Committee",
+  title = "Executable and Linkable Format ({ELF})",
+  note = "\url{http://developer.intel.com/vtune/tis.htm}"}
